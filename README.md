@@ -26,8 +26,6 @@ Lastly, you can see the details for the previous World Cups in a glance. This ba
 
 
 
-```
-
 ## Authors
 
 Devin Sherwood<br>
