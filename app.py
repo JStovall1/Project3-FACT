@@ -12,7 +12,7 @@ app = Flask (__name__)
 def home():
 
     # create a home page that displays a string
-    return render_template('index.html' )
+    return render_template('index2.html' )
 
 
 # boilerplate
