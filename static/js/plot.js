@@ -1,31 +1,19 @@
-if (data == 'AFC') {
-    data.associationName = 'Asian Foodball Confederation';
-  }
-  else if (data == 'CAF') {
-    data.associationName = 'Confederation of African Football';
-  }
-  else if (data == 'CONCACAF') {
-    data.associationName = 'Confederation of North, Central America and Caribbean Association Football';
-  }
-  else if (data == 'CONMEBOL') {
-    data.associationName = 'South American Football Confederation';
-  }
-  else if (data == 'OFC') {
-    data.associationName = 'Oceania Football Confederation';
-  }
-  else if (data == 'UEFA') {
-    data.associationName = 'Union of European Football Associations';
-  }
+
   function init() {
-    let data = [{
+
+    let points = [{
       values: [46, 54, 35, 10, 11, 55,],
-      labels: ['AFC', 'CAF', 'CONCACAF', 'CONMEBOL', 'OFC', 'UEFA'],
+      labels: ['Asian Foodball Confederation', 'Confederation of African Football', 'Confederation of North, Central America and Caribbean Association Football', 'South American Football Confederation', 'Oceania Football Confederation', 'Union of European Football Associations'],
       type: "pie"
     }];
+
     let layout = {
-      height: 600,
-      width: 800
+      height: 900,
+      width: 1450
     };
-    Plotly.newPlot("pie", data, layout);
+    Plotly.newPlot("pie", points, layout);
     }
+
     init()
+
+    

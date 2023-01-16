@@ -1,0 +1,8 @@
+html,
+body,
+#container {
+    width: 98%;
+    height: 98%;
+    margin: auto;
+    padding: 0;
+} 

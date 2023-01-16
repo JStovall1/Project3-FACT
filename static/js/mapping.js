@@ -1,7 +1,7 @@
 // Create a map object.
 var myMap = L.map("map", {
   center: [26.648067347877863, -35.50853088629663],
-  zoom: 2.5});
+  zoom: 2.32});
 
 // Add a tile layer.
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
