@@ -22,7 +22,7 @@ If you choose to check the assosciations, that is an option on the navigation ba
 
 
 **Line Chart:**
-Lastly, you can use the navigation bar to see the previous average attendance and number of teams at the previous World Cup series by year. This line chart shows the attendance for each year the World Cup played. Matches are set for every four years; however the 1942 official games were canceled due to war breaking out. The games were re-established in 1950.
+Lastly, we use AnyChart on page 3 to show the previous average attendance and number of teams at the previous World Cup series by year. This line chart shows the attendance for each year the World Cup played. Matches are set for every four years; however the 1942 official games were canceled due to war breaking out. The games were re-established in 1950.
 
 
 ## Authors
